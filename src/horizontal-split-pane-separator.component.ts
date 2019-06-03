@@ -5,13 +5,12 @@ import { SplitSeparatorComponent } from './split-pane-separator.component'
   selector: 'horizontal-split-separator',
   styles: [`
     :host {
-      background-color: #fff;
-      border-top: 1px solid #ddd;
+      background-color: #3d3d3d;
       cursor: ns-resize;
       position: relative;
     }
     :host:hover {
-      background-color: #fafafa;
+      background-color: #4d4d4d;
     }
 
     .invisible-extension {
@@ -24,7 +23,7 @@ import { SplitSeparatorComponent } from './split-pane-separator.component'
     .handle {
       width: 35px;
       height: 100%;
-      background-color: #eee;
+      background-color: #3c3c3c;
       margin: auto;
     }
   `],
